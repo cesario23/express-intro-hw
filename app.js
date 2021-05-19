@@ -20,7 +20,8 @@ app.get ('/', function(req, res){
 app.get("/photo-fun", function (req, res){
     res.render ('photos');
 });
-// this is my app
+
+//this is a change to the code
 
 app.get ("/:pet/:age", function(req, res){
     res.render({pet: req.params.pet, age: req.params.age})
